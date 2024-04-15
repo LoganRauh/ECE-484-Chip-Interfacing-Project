@@ -3,6 +3,8 @@
 ## Introduction
 This project had the goal to interface with a selected chip, in this case a USB. A simple LCD Arduino circuit was created for this project and a written C code was uploaded on to the microcontroller with the USB chip to demonstrate its use.
 
+---
+
 ## Components
 > USB Chip: SH-U09C to TTL Serial Adapter w/ FTDI
 > Installed IDE
@@ -13,6 +15,8 @@ This project had the goal to interface with a selected chip, in this case a USB.
 > Specifically for this circuit: 1 Arduino microcontroller, 1 LCD display, 21 wires, 1 220 Ohm resistor, 1 SH-U09C USB
 
 > Clone and utilizing the repository
+
+---
 
 ## Software
 First, installing all necessary software for utilizing the Arduino and USB.
@@ -29,16 +33,16 @@ Adding it to your path:
 Adding a variable to your path means your system can now access that component from anywhere. A guide on how to do this is descirbed below.
 
 ### Adding a variable to your path
-> Install the variable you are adding to your path 
-> Open your downloads section on your device
-> If that file is a ZIP, extract all components of that ZIP
-> In the search bar for your device type: "Edit the system environment variables", this is under your control panel
-> Once there, click on the "Enironment Variables" button
-> Next, go into the "System varaibles" section and select "Path", then click edit
-> This will open your files, locate the files you want to add to your path (the extracted ZIP files)
-> Copy the path your computer takes to get to those files, this line of text is the "path" your device takes to reach these files in its data
-> Return to the "Exviornment Variables" location and click "New", then paste the copied path to your files
-> After they have been copied, click "ok" and close the window
+* Install the variable you are adding to your path 
+* Open your downloads section on your device
+* If that file is a ZIP, extract all components of that ZIP
+* In the search bar for your device type: "Edit the system environment variables", this is under your control panel
+* Once there, click on the "Enironment Variables" button
+* Next, go into the "System varaibles" section and select "Path", then click edit
+* This will open your files, locate the files you want to add to your path (the extracted ZIP files)
+* Copy the path your computer takes to get to those files, this line of text is the "path" your device takes to reach these files in its data
+* Return to the "Exviornment Variables" location and click "New", then paste the copied path to your files
+* After they have been copied, click "ok" and close the window
 
 ### Installing AVR-GCC
 Use this link to install the version used in this project: https://github.com/ZakKemble/avr-gcc-build/releases
@@ -46,12 +50,16 @@ Use this link to install the version used in this project: https://github.com/Za
 AVR-GCC is a compiler designed for the coding language C. It will allow you to use C code to interface with an Arduion without using an Arduino IDE or coding language.
 
 ### Installing Git
-use this link to install Git: https://git-scm.com/downloads
+Use this link to install Git: https://git-scm.com/downloads
+
+---
 
 ## Circuit
 I have schematics of both the LCD and USB in the WIKI. There is also a DEMO video available there for completing the circuit.
 
 Other circuits and code are able to be uploaded using the USB chip as well.
+
+---
 
 ## Clone and Using the Repository
 The final step is taking the files from Github and installing and using them on your device. The following steps will show you how to do this:
@@ -63,8 +71,7 @@ The final step is taking the files from Github and installing and using them on 
 
 After this you will need to open your installed IDE and change the path within. It will state a path, change it to the path you would like to use followed by a "/bin/".
 
+---
+
 ## Running the program
 In order to run everything above connect the USB chip to your device. This should give power to your device at the very least. The open your command prompt and locate the correct file. Then type "python compile_script.py 4".
-
-
-
