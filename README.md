@@ -53,7 +53,7 @@ AVR-GCC is a compiler designed for the coding language C. It will allow you to u
 ### Installing Git
 Use this link to install Git: https://git-scm.com/downloads
 
-###
+### USB Drivers
 Use the following link to install the USB drivers: https://ftdichip.com/drivers/vcp-drivers/
 
 This allows for your device to recognize the USB port. In order to update the drivers type "Device Manager" in your device's search bar and find the USB and update the drivers.
