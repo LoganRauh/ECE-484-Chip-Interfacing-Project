@@ -5,4 +5,8 @@
 * Logan Rauh
 
 Description:
-The goal of this project was to select a chip or electrical component from a list. Then based on the amount of resources online for interfacing with that component we were to add to what was avaialble. I chose the USB chip, a data transmission device. I was able to find datasheets online for pin assignments and general information. So my goal was to use this chip with an Arduino micro-controller and C programs compilable with avr-gcc.
+The goal of this project was to select then interface the chosen chip. I selected a USB and decided to interface it with a low voltage LCD Arduino circuit and use the USB to upload compatible C code.
+
+How to install and utilize a USB chip:
+
+
