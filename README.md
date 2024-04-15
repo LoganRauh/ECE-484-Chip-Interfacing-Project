@@ -6,15 +6,15 @@ This project had the goal to interface with a selected chip, in this case a USB.
 ---
 
 ## Components
-> USB Chip: SH-U09C to TTL Serial Adapter w/ FTDI
-> Installed IDE
-> Python and AVR-GCC installed and added to your path
-> Git Installed
+* USB Chip: SH-U09C to TTL Serial Adapter w/ FTDI
+* Installed IDE
+* Python and AVR-GCC installed and added to your path
+* Git Installed
 
-> Arduino Kit for creating low voltage circuits
-> Specifically for this circuit: 1 Arduino microcontroller, 1 LCD display, 21 wires, 1 220 Ohm resistor, 1 SH-U09C USB
+* Arduino Kit for creating low voltage circuits
+* Specifically for this circuit: 1 Arduino microcontroller, 1 LCD display, 21 wires, 1 220 Ohm resistor, 1 SH-U09C USB
 
-> Clone and utilizing the repository
+* Clone and utilizing the repository
 
 ---
 
@@ -64,10 +64,10 @@ Other circuits and code are able to be uploaded using the USB chip as well.
 ## Clone and Using the Repository
 The final step is taking the files from Github and installing and using them on your device. The following steps will show you how to do this:
 
-> In your device's search bar type "cmd", this will open your command prompt
-> Locte the folder you would like to paste the cloned respoitory to, you can navigate your files by typing "cd" then the file name
-> Click on the rectangular green "<> Code" button, then copy the supplied link
-> Then in the command prompt type "git clone" then the github link provided from the previos step
+* In your device's search bar type "cmd", this will open your command prompt
+* Locte the folder you would like to paste the cloned respoitory to, you can navigate your files by typing "cd" then the file name
+* Click on the rectangular green "<> Code" button, then copy the supplied link
+* Then in the command prompt type "git clone" then the github link provided from the previos step
 
 After this you will need to open your installed IDE and change the path within. It will state a path, change it to the path you would like to use followed by a "/bin/".
 
