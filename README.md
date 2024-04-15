@@ -10,6 +10,7 @@ This project had the goal to interface with a selected chip, in this case a USB.
 * Installed IDE
 * Python and AVR-GCC installed and added to your path
 * Git Installed
+* Installing USB Drivers
 
 * Arduino Kit for creating low voltage circuits
 * Specifically for this circuit: 1 Arduino microcontroller, 1 LCD display, 21 wires, 1 220 Ohm resistor, 1 SH-U09C USB
@@ -51,6 +52,11 @@ AVR-GCC is a compiler designed for the coding language C. It will allow you to u
 
 ### Installing Git
 Use this link to install Git: https://git-scm.com/downloads
+
+###
+Use the following link to install the USB drivers: https://ftdichip.com/drivers/vcp-drivers/
+
+This allows for your device to recognize the USB port. In order to update the drivers type "Device Manager" in your device's search bar and find the USB and update the drivers.
 
 ---
 
