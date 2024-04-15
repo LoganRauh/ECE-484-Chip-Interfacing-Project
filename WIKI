@@ -1,0 +1,3 @@
+For this project I had to select a chip and interface with it depending on what online resources I was able to find for the component. I was able to find general datasheets for various USB chips so I interfaced by utilizing the USB chip in a low voltage Arduino circuit.
+
+I initially purchased and presented on the USB chip cp2102 2.0, this ended up being a difficult product to use as the drivers available were't compatible with my device. I later purchased and successfully used a USB chip SHU09C.
